@@ -1,0 +1,15 @@
+# secrets
+.env
+backend/.env
+# python
+__pycache__/
+.pytest_cache/
+.venv/
+# trained artifacts (regenerate with the training commands in the README)
+backend/models/
+# node
+node_modules/
+dist/
+# image dataset: keep the folder, not the images (check each dataset's licence before redistributing)
+data/panel_images/*
+!data/panel_images/README.md
